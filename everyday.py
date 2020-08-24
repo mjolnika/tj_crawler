@@ -105,7 +105,7 @@ crawlAsia = AsiaCr(url, source, pre)
 dirs = []
 re_sect = re.compile('<a href=\'/tj/news/all([?]page=[1-9]*?)\'', flags=re.DOTALL)
 try: 
-    crawlAsia.articles_from_date(date, re_sect, re_links,  dirs, re_arttext, re_title, re_author, replace)
+    crawlAsia.articles_from_date(date, re_sect, dirs, re_links, re_arttext, re_title, re_author, replace)
 except Exception as exc:
     print('Sorry, couldnt run download from ' + url + ' or 0 articles found, error: ')
     print(exc)
@@ -185,3 +185,4 @@ try:
 except Exception as exc:
     print('Sorry, couldnt run download from ' + url + ' or 0 articles found, error: ')
     print(exc)
+
