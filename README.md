@@ -41,3 +41,6 @@ Faraj, Ovozi, Ovozi Samarqand, Asia-Plus TJ, Oila, Khovar, Sputnik Tajikistan, O
 2. changed_archive.py
 3. clean_everything.py
 4. metaforcorpus.py
+
+
+Также нужно следить за наименованием папок, в которые краулер скачивает газеты, и тем, как газеты значатся в метаданных корпуса.
