@@ -35,3 +35,9 @@ Faraj, Ovozi, Ovozi Samarqand, Asia-Plus TJ, Oila, Khovar, Sputnik Tajikistan, O
 
 5. Также из неочевидного: для правильной обработки дат нужно менять локаль на таджикскую. Наименование/сокращения месяцев не везде совпадают, от этого падают ошибки.
 
+
+Итого, необходимые файлы на 2023 год:
+1. changed_classes.py
+2. changed_archive.py
+3. clean_everything.py
+4. metaforcorpus.py
